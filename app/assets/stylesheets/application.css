@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+li {
+  margin: 8px;
+  padding: 2px;
+  background: RGB(53, 153, 221);
+}
+
+.game-container {
+  background-color: beige;
+  padding: 16px;
+  border-radius: 6px;
+  width: 480px;
+  margin: 0 auto;
+  margin-top: 23px;
+}
+.text-center {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.form-game-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-game-bottom {
+  margin-top: 30px;
+}
+.form-game-bottom form{
+  display: flex;
+  justify-content: space-between;
+}
+
+.letter-box {
+  background-color: darkgrey;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 3px;
+}
